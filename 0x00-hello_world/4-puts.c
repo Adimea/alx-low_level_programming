@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main - functions
- * return: always 0
- * /
+ * main - Entry
+ * Return: always 0
+ * Decription: c learning
+ */
 int main(void)
 {
-	put("Programming is like building a multilingual puzzle\n");
+	put("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
