@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main -Entry point
  *
  * Return: Always 0 (success)
  */
@@ -11,11 +11,10 @@ int main(void)
 
 	c = 'a';
 	while
-		(c < 'z') {
+		(c <= 'z') {
 			if ((c != 'q' && c != 'e') && c <= 'z')
-
-					putchar(c);
-				c++;
+				putchar(c);
+			c++;
 		}
 	putchar('\n');
 	return (0);
