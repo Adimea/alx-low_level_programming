@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * Description: 'the programs'
- *
- * Return:  always 0 (success)
+ * main - print _putchar
+ * is written by ugochi
+ * Return: always 0 
  */
 
 int main(void)
