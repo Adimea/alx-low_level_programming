@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strlen_recursion - prints tge length of a string
- * @s: tge string to be printed
- * Return: tge length of string
+ * _strlen_recursion - prints the length of a string
+ * @s: the string to be printed
+ * Return: the length of string
  */
 int _strlen_recursion(char *s)
 {
@@ -23,7 +23,7 @@ int pal_checker(char *s, int i, int j)
 		if (i > j / 2)
 			return (1);
 		else
-			return (pal_checkers(s, i + 1, j - 1));
+			return (pal_checker(s, i + 1, j - 1));
 	else
 		return (0);
 }
